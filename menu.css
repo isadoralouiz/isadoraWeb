@@ -1,0 +1,115 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: rgb(255, 218, 179); 
+    text-align: center;
+}
+
+.menu{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    display: inline flex;
+}
+
+.menu li{
+    position: relative;
+}
+
+.menu li a {
+    display: block;
+    padding: 15px 20px;
+    color: rgb(87, 73, 100);
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: rgb(159, 131, 131);
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: rgb(200, 170, 170);
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li:hover .submenu{
+    display: block;
+}
+
+.submenu li a {
+    padding: 10px 15px;
+}
+
+.submenu li a:hover {
+    background-color: rgb(255, 218, 179);
+}
+
+.subcontato {
+    display: none;
+    position: absolute;
+    background-color: rgb(200, 170, 170);
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li:hover .subcontato{
+    display: block;
+}
+
+.subcontato li a {
+    padding: 10px 15px;
+}
+
+.subcontato li a:hover {
+    background-color: rgb(255, 218, 179);
+}
+
+
+.tamanho {
+    display: none;
+    position: absolute;
+    background-color: rgb(200, 170, 170);
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li:hover .tamanho{
+    display: block;
+}
+
+.tamanho li a {
+    padding: 10px 15px;
+}
+
+.tamanho li a:hover {
+    background-color: rgb(255, 218, 179);
+}
+
+.cor {
+    display: none;
+    position: absolute;
+    background-color: rgb(200, 170, 170);
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li:hover .cor{
+    display: block;
+}
+
+.cor li a {
+    padding: 10px 15px;
+}
+
+.cor li a:hover {
+    background-color: rgb(255, 218, 179);
+}
