@@ -134,10 +134,10 @@ nav {
     background-color: rgb(20, 61, 96);
 }
 
-img {
+img .padrao {
     width: 1500px;
-
 }
+
 
 .introducao {
     background-color: rgb(80, 103, 124);
