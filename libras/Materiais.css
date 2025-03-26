@@ -113,11 +113,9 @@ nav {
     background-color: rgb(20, 61, 96);
 }
 
-
 .menuLibras li:hover .referencias {
     display: block;
 }
-
 
 .apps {
     display: none;
@@ -141,14 +139,17 @@ nav {
 }
 
 
-.introducao {
-    background-color: rgb(80, 103, 124);
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 100px;
-    border-radius: 20px;
+.mat1{
+    background-color: rgb(150, 179, 206);
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 150px;
+    border-radius: 5px;
     margin: 2%;
 
+}
+.mat1 li{
+    margin: 2%;
 }
 
 h1{
@@ -156,6 +157,16 @@ h1{
     text-align: center;
 }
 
-.aula1 li{
-    background-color: rgb(198, 212, 223);
+.apostila1{
+    width: 1000px;
+    margin-left: 250px;
+
 }
+
+.apostila2{
+    width: 1000px;
+    margin-left: 250px;
+    margin-top: 2%;
+    
+}
+

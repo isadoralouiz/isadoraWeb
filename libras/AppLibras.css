@@ -113,11 +113,9 @@ nav {
     background-color: rgb(20, 61, 96);
 }
 
-
 .menuLibras li:hover .referencias {
     display: block;
 }
-
 
 .apps {
     display: none;
@@ -141,21 +139,26 @@ nav {
 }
 
 
-.introducao {
-    background-color: rgb(80, 103, 124);
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 100px;
-    border-radius: 20px;
+.app {
+    background: #396595;
+    color: white;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
     margin: 2%;
+    font-size: 18px;
+  }
 
-}
-
-h1{
-    background-color: rgb(87, 116, 142);
-    text-align: center;
-}
-
-.aula1 li{
-    background-color: rgb(198, 212, 223);
-}
+  .botao1 {
+    background: #9ec0e6;
+    color: white;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 2%;
+    font-size: 18px;
+  }

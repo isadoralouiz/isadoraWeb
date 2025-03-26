@@ -114,7 +114,12 @@ nav {
     background-color: rgb(20, 61, 96);
 }
 
-.referencias {
+
+.menuLibras li:hover .referencias {
+    display: block;
+}
+
+.apps {
     display: none;
     position: absolute;
     background-color: rgb(20, 61, 96);
@@ -123,15 +128,11 @@ nav {
     margin: 0;
 }
 
-.menuLibras li:hover .referencias {
-    display: block;
-}
-
-.referencias li a {
+.apps li a {
     padding: 10px 15px;
 }
 
-.referencias li a:hover {
+.apps li a:hover {
     background-color: rgb(20, 61, 96);
 }
 
